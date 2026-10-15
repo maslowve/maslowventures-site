@@ -36,10 +36,16 @@ a { color: inherit; text-decoration: none; }
 
 .hero {
   min-height: 91vh;
-  color: var(--white);
+  color: #ffffff;
   background:
     linear-gradient(90deg, rgba(3, 15, 25, .76), rgba(3, 15, 25, .27)),
     url("images/teton-hero.jpg") center/cover no-repeat;
+}
+
+.hero h1,
+.hero p,
+.hero a {
+  color: #ffffff;
 }
 
 .nav {
@@ -178,10 +184,16 @@ footer p {
 
 .arrived-page {
   min-height: 100vh;
-  color: var(--white);
+  color: #ffffff;
   background:
     linear-gradient(rgba(3, 15, 25, .68), rgba(3, 15, 25, .68)),
     url("images/teton-arrived-1.jpg") center/cover no-repeat;
+}
+
+.arrived-page h1,
+.arrived-page p,
+.arrived-page a {
+  color: #ffffff;
 }
 
 .arrived-content {
